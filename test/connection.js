@@ -4,7 +4,7 @@ var test = require('tape');
 var stanza = require('../index');
 
 
-test('Connect using WebSocket', function (t) {
+/*test('Connect using WebSocket', function (t) {
     t.plan(1);
 
     var client = stanza.createClient({
@@ -19,7 +19,7 @@ test('Connect using WebSocket', function (t) {
     });
 
     client.connect();
-});
+});*/
 
 test('Connect using BOSH', function (t) {
     t.plan(1);
